@@ -1,0 +1,19 @@
+{
+  "etcd集群列表": "ip:端口,配置多个,避免单点故障",
+  "etcdEndpoints": ["192.168.100.8:2379"],
+
+  "etcd连接超时": "单位毫秒",
+  "etcdDialTimeout": 5000,
+
+  "mongodb地址": "采用mongodb URI",
+  "mongodbURI": "mongodb://192.168.100.8:27017",
+
+  "mongodb连接超时": "单位毫秒",
+  "mongodbConnectTimeout": 5000,
+
+  "日志批次窗口大小": "为了减少mongodb通讯次数",
+  "jobLogBatchSize": 100,
+
+  "日志批次自动提交事件": "如果批次未达到阈值之前,时间到了就自动提交,单位毫秒",
+  "jobLogCommitTimeout": 1000
+}
